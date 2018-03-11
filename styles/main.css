@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, figure, picture, img {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.inline_margin {
+    margin-right: 2%;
+    width: calc((94%)/4) !important;
+}
+
+.inline_margin:last-of-type {
+    margin-right: 0px;
+}
+
+.padding_lateral {
+    padding: 0px 3% 0px 3%;
+}
+
+.padding_vertical {
+    padding: 3% 0px 3% 0px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-10 {
+    width: 83.33%;    
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-1 {
+    width: 8.33%;
+}
